@@ -11,7 +11,7 @@ module.exports = {
     log: './log',
     node_modules: './node_modules',
     input: './public/source',
-    output: `/public/${NODE_ENV}`
+    output: `./public/${NODE_ENV}`
   },
   sass: {
     outputStyle: IS_DEVELOPMENT ? 'expanded' : 'compressed'
